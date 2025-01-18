@@ -1142,7 +1142,6 @@ local v104 = {"Slave","Master","Peasant"};
 local v105 = v104[math.random(#v104)];
 local v106 = v101:Page({["Name"]="Target"});
 local v107 = v101:Page({["Name"]="Aim Assist"});
-local v108 = v101:Page({["Name"]="Visuals"});
 local v410 = v101:Page({["Name"]="Anti Lock"});
 local v109 = v101:Page({["Name"]="Settings"});
 local v411 = v101:Page({["Name"]="Misc"});
