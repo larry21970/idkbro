@@ -1145,6 +1145,7 @@ local v107 = v101:Page({["Name"]="Aim Assist"});
 local v108 = v101:Page({["Name"]="Visuals"});
 local v410 = v101:Page({["Name"]="Anti Lock"});
 local v109 = v101:Page({["Name"]="Settings"});
+local v411 = v101:Page({["Name"]="Misc"});
 local v110 = v106:Section({["Name"]="Target",["Side"]="Left",["Size"]=(43 + 137)});
 v110:Toggle({["Name"]="Enabled",["Callback"]=function(v217)
 	v10.Tech.Enabled = v217;
@@ -1842,7 +1843,7 @@ v18.InputBegan:Connect(function(v299, v300)
 		v118();
 	end
 end);
-local v119 = v109:Section({["Name"]="AutoShoot",["Side"]="Right",["Size"]=(132 - 82)});
+local v119 = v411:Section({["Name"]="AutoShoot",["Side"]="Right",["Size"]=(132 - 82)});
 v119:Button({["Name"]="Auto Shoot Button",["Callback"]=function()
 	local v301 = 0 + 0;
 	while true do
@@ -1868,7 +1869,7 @@ v119:Button({["Name"]="Auto Shoot Button",["Callback"]=function()
 	end
 end});
 local v120 = 0.0001;
-local v121 = v109:Section({["Name"]="Hood Custom",["Side"]="Left",["Zindex"]=2});
+local v121 = v411:Section({["Name"]="Hood Custom",["Side"]="Left",["Zindex"]=2});
 v121:Toggle({["Name"]="Fire Rate",["Callback"]=function(v302)
 	local v303 = 0 - 0;
 	while true do
@@ -1998,7 +1999,7 @@ end});
 v127:Button({["Name"]="Change",["Callback"]=function()
 	changeSkybox();
 end});
-local v128 = v108:Section({["Name"]="Dance",["Side"]="Left",["Size"]=140});
+local v128 = v411:Section({["Name"]="Dance",["Side"]="Left",["Size"]=140});
 local v129 = {["Misc"]={["Animation"]={["Enabled"]=false,["SelectedDance"]="Floss",["Speed"]=(1943 - (816 + 1125))}}};
 local v130 = game.Players.LocalPlayer;
 local v131 = {["Floss"]=(11625203662 - 910863119)};
