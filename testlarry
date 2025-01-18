@@ -1143,6 +1143,7 @@ local v105 = v104[math.random(#v104)];
 local v106 = v101:Page({["Name"]="Target"});
 local v107 = v101:Page({["Name"]="Aim Assist"});
 local v108 = v101:Page({["Name"]="Visuals"});
+local v410 = v101:Page({["Name"]="Anti Lock"});
 local v109 = v101:Page({["Name"]="Settings"});
 local v110 = v106:Section({["Name"]="Target",["Side"]="Left",["Size"]=(43 + 137)});
 v110:Toggle({["Name"]="Enabled",["Callback"]=function(v217)
@@ -1960,7 +1961,7 @@ v125:Toggle({["Name"]="AutoPred",["Callback"]=function(v323)
 	v10.Tech.CamPrediction2 = v123;
 	v10.Tech.CamPrediction1 = v124;
 end});
-local v126 = v108:Section({["Name"]="Prediction Breaker",["Side"]="Left",["Size"]=(114 + 26)});
+local v126 = v410:Section({["Name"]="Prediction Breaker",["Side"]="Left",["Size"]=(114 + 26)});
 v126:Toggle({["Name"]="Jump Prediction",["Callback"]=function(v327)
 	v10.Tech.JumpBreak = v327;
 end});
