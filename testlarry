@@ -1975,7 +1975,7 @@ end});
 v126:List({["Name"]="Anti Lock Type",["Options"]={"Shake","Behind","Down","Forward","Left","One","Right","Up","Zero"},["Default"]=v78,["Callback"]=function(v331)
 	v78 = v331;
 end});
-local v127 = v108:Section({["Name"]="SkyBox",["Side"]="Right",["Size"]=130});
+local v127 = v411:Section({["Name"]="SkyBox",["Side"]="Right",["Size"]=130});
 v127:Toggle({["Name"]="Skybox Enabled",["Callback"]=function(v332)
 	local v333 = 0;
 	while true do
@@ -2068,7 +2068,7 @@ v128:Toggle({["Name"]="Animate",["Callback"]=function(v344)
 		end
 	end
 end});
-local v134 = v108:Section({["Name"]="ESP",["Side"]="Right",["Size"]=(66 - 26)});
+local v134 = v411:Section({["Name"]="ESP",["Side"]="Right",["Size"]=(66 - 26)});
 v134:Toggle({["Name"]="Highlight",["Callback"]=function(v346)
 	HighlightEnabled = v346;
 end});
