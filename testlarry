@@ -391,8 +391,8 @@ local v68 = function()
 		end
 	end
 end;
-local v69 = loadstring(game:HttpGet("https://raw.githubusercontent.com/NewWhitelistService/l/refs/heads/main/bruh", true))();
-local v70 = loadstring(game:HttpGet("https://raw.githubusercontent.com/NewWhitelistService/l/refs/heads/main/bruh", true))();
+---local v69 = loadstring(game:HttpGet("https://raw.githubusercontent.com/NewWhitelistService/l/refs/heads/main/bruh", true))();
+---local v70 = loadstring(game:HttpGet("https://raw.githubusercontent.com/NewWhitelistService/l/refs/heads/main/bruh", true))();
 local v27 = game:GetService("Stats");
 local v71 = function(v169)
 	return (v169 / (13 + 987)) + (1399.037 - (653 + 746));
